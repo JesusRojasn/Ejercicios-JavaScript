@@ -9,7 +9,6 @@ body {
    height: 35px;
    border-radius: 15px;
    padding-left: 16px;
-   justify-content: flex-start;
 }
 
 #agregar,
@@ -17,15 +16,8 @@ body {
    border-radius: 15px;
    width: auto;
    height: 35px;
-   font-weight: 500;
+   font-weight: bold;
    font-size: 16px;
-}
-#agregar:hover {
-   background-color: #004ab9;
-}
-
-#borrar:hover {
-   background-color: #8d212c;
 }
 
 #agregar {
@@ -38,13 +30,21 @@ body {
    color: white;
 }
 
+#agregar:hover {
+   background-color: #004ab9;
+}
+
+#borrar:hover {
+   background-color: #8d212c;
+}
+
 #error {
    color: red;
    padding-left: 15px;
    font-weight: 700;
 }
 ol {
-   font-weight: 400;
+   font-weight: 500;
 }
 li {
    padding: 6px;
